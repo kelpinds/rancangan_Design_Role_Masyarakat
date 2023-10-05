@@ -20,14 +20,12 @@ Route::get('/', function () {
 Route::get('login',function(){
     return View('project.login');
 });
-Route::get('dasbord',function(){
-    return View('project.dasbord');
-});
+
 
 
 
 //data masyarakat
-Route::get('masyarakat',[MasyarakatControll::class,'index']);
+Route::get('home',[MasyarakatControll::class,'index']);
 
 Route::get('registrasi',[MasyarakatControll::class,'registrasi']);
 
@@ -43,7 +41,9 @@ Route::post('laporan',[MasyarakatControll::class,'laporan']);
 
 
 
+Route::get('dasbord',[MasyarakatControll::class,'dasbord']);
 
+Route::get('bd',[MasyarakatControll::class,'bd']);
 
 
 

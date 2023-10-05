@@ -58,6 +58,11 @@ class MasyarakatControll extends Controller
     public function laporan(){
         return view('masyarakat.laporan');
     }
-
+    public function dasbord(){
+        return view('masyarakat.dasbord');
+    }
+    public function bd(){
+        return view('project.dasbord');
+    }
 }
 

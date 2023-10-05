@@ -31,7 +31,7 @@
             margin: 50px auto;
             padding: -5px;
             border-radius: 10px;
-            box-shadow: 0 2px 10px rgb(0,0, 0)
+            box-shadow: 0 2px 10px rgb(0, 0, 0)
         }
 
         .bok1 {
@@ -63,9 +63,9 @@
             flex-direction: column;
             justify-content: center;
             padding: 10px 0 10px 0;
-           
 
-        }   
+
+        }
 
         .input {
             height: 45px;
@@ -106,7 +106,7 @@
             font-size: small;
             color: #ffffff;
             margin-top: 10px;
-            
+
         }
 
         .left {
